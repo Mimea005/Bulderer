@@ -23,8 +23,6 @@ class ClimbrView extends WatchUi.View {
     function onUpdate(dc as Dc) as Void {
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
-        var count = Properties.getValue("count");
-        dc.drawText(dc.getWidth()/2, dc.getHeight()/2, Graphics.FONT_NUMBER_MEDIUM, count, Graphics.TEXT_JUSTIFY_CENTER);
     }
 
     // Called when this View is removed from the screen. Save the

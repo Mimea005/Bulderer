@@ -1,14 +1,15 @@
 import Toybox.Lang;
 import Toybox.WatchUi;
+import Toybox.Application;
 
 class ClimbrDelegate extends WatchUi.BehaviorDelegate {
 
     function initialize() {
         BehaviorDelegate.initialize();
     }
-
-    function onMenu() as Boolean {
-        WatchUi.pushView(new Rez.Menus.MainMenu(), new ClimbrMenuDelegate(), WatchUi.SLIDE_UP);
+    
+    function onSelect() as Boolean {
+        WatchUi.pushView(new SessionView(), new SessionDelegate(), WatchUi.SLIDE_DOWN);
         return true;
     }
 

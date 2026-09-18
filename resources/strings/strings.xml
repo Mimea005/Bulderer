@@ -1,9 +1,12 @@
 <strings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
     <string id="AppName">Bulderer</string>
 
-    <string id="prompt">Click the menu button</string>
+    <string id="sessionPrompt">Start a new session</string>
 
     <string id="countIncrement">Increment</string>
     <string id="countDecrement">Decrement</string>
+
+    <string id="recordActive">Recording</string>
+    <string id="routeAttempts">Attempts</string>
     
 </strings>
